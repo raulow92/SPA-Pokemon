@@ -1,12 +1,16 @@
+import { NavLink } from "react-router-dom";
+
 const Header = ({ setSearch, setSort, sort }) => {
     return (
         <header>
             <div className="logo-container">
+                <NavLink to="/">
                 <img
                     className="logo"
                     alt="pokemon logo"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png"
                 />
+                </NavLink>
                 <h1>First Gen</h1>
             </div>
             <div className="filter-container">
