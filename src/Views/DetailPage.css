@@ -58,3 +58,28 @@ header h2 span {
 .stat-container:nth-child(odd) {
     background-color: rgba(99, 172, 255, 0.182);
 }
+
+@media (max-width: 1200px) {
+    .detail-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    header h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detail-r {
+        order: 1;
+    }
+
+    .detail-l {
+        order: 2;
+        margin-bottom: 30px;
+    }
+
+    .detail-r img {
+        margin-bottom: 0;
+    }
+}

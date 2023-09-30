@@ -98,11 +98,11 @@ header {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
 }
 
 .card:hover {
     scale: 1.04;
-    transition: ease 0.2s;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 

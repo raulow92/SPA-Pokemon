@@ -13,6 +13,7 @@
     text-decoration: none;
     color: #999;
     font-weight: 500;
+    transition: ease-in-out 0.3s all;
 }
 
 .navbar a:hover {
@@ -22,4 +23,10 @@
 .navbar .active {
     color: #333;
     border-bottom: solid 2px #333;
+}
+
+@media (max-width: 1200px) {
+    .navbar-container {
+        display: none;
+    }
 }
