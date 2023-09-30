@@ -63,6 +63,8 @@ header h2 span {
     .detail-container {
         flex-direction: column;
         height: 100%;
+        margin: 0 20px;
+        padding: 0 20px;
     }
 
     header h2 {
@@ -77,9 +79,21 @@ header h2 span {
     .detail-l {
         order: 2;
         margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .stats-container {
+        width: 100%;
+    }
+
+    .stat-container {
+        width: 90%;
     }
 
     .detail-r img {
-        margin-bottom: 0;
+        margin: 0;
+    }
+    .detail-r img {
+        width: 100%;
     }
 }
